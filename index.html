@@ -5,16 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wartungsarbeiten</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        img { max-width: 500px; margin-bottom: 50px; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
-    <!-- Logo einfügen -->
-    <img src="https://raw.githubusercontent.com/Designbyadil/maintenance-page/refs/heads/main/Rana-Logo(1).png" alt="Rana Logo">
+    <div class="container">
+        <!-- Logo einfügen -->
+        <img src="https://raw.githubusercontent.com/Designbyadil/maintenance-page/main/Rana-Logo(1).png" alt="Rana Logo">
 
-    <h1>Wartungsarbeiten</h1>
-    <p>Unsere Website wird gerade überarbeitet. Bitte versuchen Sie es später erneut.</p>
+        <h1>Wir sind bald zurück!</h1>
+        <p>Unsere Website wird momentan gewartet. Bitte haben Sie etwas Geduld und versuchen Sie es später erneut.</p>
+    </div>
 </body>
 </html>
